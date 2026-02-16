@@ -1,2 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-/* Your CSS Code here. */
+form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Text style inputs */
+#name,
+#email,
+#age,
+#dob,
+#tel,
+#password,
+#cars {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Radio buttons */
+#gender_m,
+#gender_f {
+  margin-right: 5px;
+  margin-top: 8px;
+}
+
+/* Checkbox */
+#tos {
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  color: #333;
+}
